@@ -1,5 +1,8 @@
-g1 = Game.create(title:'pokemon legends arceus', genre:'RPG', description:'Pokémon Legends: Arceus is an action role-playing game developed by Game Freak and published by Nintendo and The Pokémon Company for the Nintendo Switch.', price:45.00)
+g1 = Game.create(title:'pokemon', genre:'RPG', description:'catch them all!', price:45.00)
 
 u1 = User.create(username:'rose')
+u2 = User.create(username:'ix')
+u3 = User.create(username:'bubbles')
+u4 = User.create(username:'ted')
 
-Review.create(game:g1, user:u1, review:'Great game!')
+Review.create(game:g1, user:u1, review:'Good game!')
