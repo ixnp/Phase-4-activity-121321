@@ -1,4 +1,7 @@
-# Phase-4-121321
+# Phase-4-112221-activity
+
+
+
 # Deliverables
 Create a rails app 
 
@@ -41,4 +44,4 @@ You've been hired to create a Game Review app. It will have a React client and R
  </details>
 
 Bonus
-3. Build out the rest of CRUD for the remaining controllers 
+3. Build out the rest of CRUD for the remaining controllers
