@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2022_03_02_203146) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "games", force: :cascade do |t|
     t.string "title"
     t.string "genre"
@@ -22,8 +25,8 @@ ActiveRecord::Schema.define(version: 2022_03_02_203146) do
   end
 
   create_table "reviews", force: :cascade do |t|
-    t.integer "game_id", null: false
-    t.integer "user_id", null: false
+    t.bigint "game_id", null: false
+    t.bigint "user_id", null: false
     t.text "review"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
